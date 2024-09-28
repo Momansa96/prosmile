@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation en Ligne - Dental Care</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo"><a href="index.html"><span>D</span>ental Care</a></div>
+        <ul class="menu">
+            <li><a href="consultation.html">Consultation</a></li>
+            <li><a href="avis.html">Avis Clients</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="specialistes.html" class="active">Spécialistes</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn">Se connecter</a>
+            <a href="signup.html" class="btn btn-signup">S'inscrire</a>
+        </div>
+    </header>
+
+    <!-- Consultation Section -->
+    <section class="consultation-section">
+        <div class="consultation-content">
+            <h1>Réservez votre Consultation en Ligne</h1>
+            <p>Remplissez le formulaire ci-dessous pour réserver une consultation avec nos spécialistes dentaires.</p>
+            
+            <form class="consultation-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Choisissez le service</label>
+                    <select id="service" name="service" required>
+                        <option value="implant">Implants dentaires</option>
+                        <option value="orthodontie">Orthodontie</option>
+                        <option value="blanchiment">Blanchiment des dents</option>
+                        <option value="controle">Contrôle de routine</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date souhaitée</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Heure souhaitée</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <button type="submit" class="submit-btn">Réserver ma consultation</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <h1 class="title">Contactez-nous</h1>
+        <div class="contact">
+            <div class="class-form">
+                <h2>Évaluation Gratuite de Votre Cas</h2>
+                <h4>Disponible 24h/24 !</h4>
+                <form action="#">
+                    <input type="text" placeholder="Entrez votre nom">
+                    <input type="email" placeholder="Entrez une adresse email valide">
+                    <textarea placeholder="Entrez votre message" cols="30" rows="8"></textarea>
+                    <button>Soumettre</button>
+                </form>
+            </div>
+            <div class="address">
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Section -->
+    <div class="end">
+        <p>Réalisé par Mansa</p>
+    </div>
+
+</body>
+</html>
